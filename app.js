@@ -42,3 +42,18 @@
 //   }
 
 // hide and see function ↑↑↑↑↑________//////
+
+// feedback form 
+ (function () {
+    const form = document.getElementById('feedbackForm');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!form.checkValidity()) {
+        form.classList.add('was-validated');
+        return;
+      }
+      document.getElementById('feedbackSuccess').style.display = 'block';
+      form.reset();
+      form.classList.remove('was-validated');
+    });
+  })();
