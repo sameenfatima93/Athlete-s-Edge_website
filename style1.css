@@ -129,6 +129,10 @@
 
 /* Header complete */
 /* hero section start */
+.herobox{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
 .herosec{
   
     background: linear-gradient(rgba(36, 36, 180, 0.142), rgba(243, 243, 245, 0.872)), url('your-sports-image.jpg') center/cover;
@@ -369,7 +373,7 @@
 /* about section stylng */
  .about-concise {
     padding: 60px 20px;
-    background: #f5f9ff;
+    /* background: #f5f9ff; */
     color: #081436;
     font-family: system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
   }
@@ -658,6 +662,16 @@
 .rgfooter a{
 text-decoration: none;
 color: #fff;
+}
+.btncolor{
+    background-color: #1E1B6E;
+    color: #fff;
+}
+.btncolor:hover{
+    /* border: 2px solid #fcfcfc; */
+    background-color: #0f8e18;
+    /* background-color: rgb(247, 244, 244); */
+    color: #fff;
 }
   @media (max-width: 950px) {
     .inner {
