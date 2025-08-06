@@ -29,10 +29,14 @@
 }
 
 .mybtn {
-    width: 100px !important;
+    width: auto !important;
     background-color: rgb(232, 86, 33);
     color: rgb(255, 255, 255);
     font-weight: bold;
+}
+.mybtn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 .mybtnread{
      color:rgb(232, 86, 33);
@@ -79,6 +83,21 @@
     background-color: rgb(33, 32, 117);
     color: rgb(255, 255, 255);
     font-weight: bold;
+    padding: 10px 6px;
+}
+.mybtn2 a{
+    text-decoration: none;
+    color: inherit;
+}
+.bradecrum a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.bradecrum a:hover{
+    transform: scale(1.2, 1.2);
+    color: rgb(232, 86, 33) !important;
+    transition: all 2s ease;
 }
 
 .mybtn:hover {
@@ -612,7 +631,34 @@
     object-fit: cover;
     display: block;
   }
+/* regestration page */
+.regestrationbg{
+    height: auto;
+    margin-top: -50px;
+    /* border: 8px solid rgb(239, 25, 25); */
+    padding: 40px;
+    background-image: url(images/rgform-bg1.jpg);
+    background-position: cener;
+    background-repeat: no repeat;
+    background-size: cover;
+    
+}
 
+.rgformblure{
+    backdrop-filter: blur(17px);
+    background:rgba(255, 255, 255, 0.174);
+    /* backdrop-filter: blur(10px); */
+}
+.rgfooter{
+    background-color:#1E1B6E;
+}
+.rgfooter p {
+    color: #fff;
+}
+.rgfooter a{
+text-decoration: none;
+color: #fff;
+}
   @media (max-width: 950px) {
     .inner {
       flex-direction: column-reverse;
